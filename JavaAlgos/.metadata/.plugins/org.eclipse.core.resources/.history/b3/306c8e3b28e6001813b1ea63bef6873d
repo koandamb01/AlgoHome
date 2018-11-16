@@ -1,0 +1,26 @@
+package binary.tree;
+
+public class BSTNode {
+	private int val;
+	private Object right;
+	private Object left;
+	
+	public BSTNode(int val) {
+		this.val = val;
+		this.right = null;
+		this.left = null;
+	}
+	
+	// insert a new BSTNode
+	public void insert(int val) {
+		// make a node
+		BSTNode newNode = new BSTNode(val);
+		
+		// check right side
+		if(val > this.val) {
+			if(this.right == null) {
+				this.right
+			}
+		}
+	}
+}

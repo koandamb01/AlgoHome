@@ -1,0 +1,12 @@
+package binary.tree;
+
+public class BST {
+	private Object root;
+	
+	public BST() {
+		this.root = null;
+	}
+	
+	// insert in the tree
+	
+}

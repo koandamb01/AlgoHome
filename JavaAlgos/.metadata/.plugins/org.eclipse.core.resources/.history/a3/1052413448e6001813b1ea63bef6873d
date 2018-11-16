@@ -1,0 +1,20 @@
+package roman.numero;
+import java.util.HashMap;
+
+
+public class RomanToNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	// convert roman to number
+	static Integer romanToNumber(String roman) {
+		HashMap<char, Integer> romanDict = new HashMap<char, Integer>();
+		
+		
+		return null;
+	}
+
+}

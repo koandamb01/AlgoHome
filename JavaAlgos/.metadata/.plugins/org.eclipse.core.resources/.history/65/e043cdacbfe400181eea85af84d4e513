@@ -1,0 +1,12 @@
+package data.structures.two;
+
+import java.util.ArrayList;
+
+public class Stack {
+	private ArrayList<Object> data = new ArrayList<>();
+	private int top;
+	
+	public Stack() {
+		this.top = -1;
+	}
+}

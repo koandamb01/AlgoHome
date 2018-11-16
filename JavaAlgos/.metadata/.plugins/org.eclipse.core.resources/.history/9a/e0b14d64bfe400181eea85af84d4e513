@@ -1,0 +1,5 @@
+package data.structures.two;
+
+public class Stack {
+	private ArrayList<> List = ArrayList<>(); 
+}
