@@ -41,7 +41,7 @@ def merge(list, leftHalf, rightHalf):
         k += 1
 
 
-myList = [5, 15, 2, 20, 11, 16, 4, 14, 6, 3,8]
+myList = [5, 15, 2, 20, 11, 16, 4, 14, 6, 3, 8]
 print("Before: ", myList)
 merge_sort(myList)
 print("After: ", myList)
