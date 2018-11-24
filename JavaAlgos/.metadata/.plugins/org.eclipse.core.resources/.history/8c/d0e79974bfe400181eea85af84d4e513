@@ -1,7 +1,0 @@
-package data.structures.two;
-
-import java.util.ArrayList;
-
-public class Stack {
-	private ArrayList<> List = new ArrayList<>(); 
-}

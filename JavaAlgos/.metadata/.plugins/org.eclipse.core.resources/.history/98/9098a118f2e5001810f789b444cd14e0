@@ -1,7 +1,0 @@
-package data.structures.two;
-
-// Queue RULES: First In First Out
-public class Queue {
-	private int top;
-	private ArrayList<Object> data = new ArrayList<>();
-}
