@@ -7,20 +7,24 @@
     <style></style>
   </head>
   <body>
+    <button name="button">Click Me</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-      const obj = {
-        first: "Med",
-        last: "Bass",
-        age: 23,
-        height: 6.1,
-        weight: 160
+      // our test object
+      var customObject = {
+        name: "California, Eureka",
+        onClick: function() {
+          console.log("I've been clicked");
+          console.log(this.name);
+        }
       };
 
-      const arr = ["Phone", "car", "bike", "radio"];
-
-      for (let val of arr) {
-        console.log("val: ", val);
-      }
+      var newObject = {
+        name: "West Virginia,  Montani semper liberi"
+      };
+      // our behavior on click.
+      // $("button").click(customObject.onClick);
+      $("button").click(customObject.onClick.bind(customObject));
     </script>
   </body>
 </html>
